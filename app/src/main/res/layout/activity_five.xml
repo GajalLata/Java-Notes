@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".five">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#C5AFAD"
+                android:padding="10dp"
+                android:text="Data Types"
+                android:textColor="#B71C1C"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="Data types specify the different sizes and values that can be stored in the variable.\nThere are two types of data types in Java:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="1.Primitive Data Types (Intrinsic)
+\n2.Non-Primitive Data Types (Derived)"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:layout_margin="20dp"
+                android:background="#D2DFE4"
+                android:src="@drawable/data"
+                app:srcCompat="@drawable/data" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Primitive Data Types"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="In Java language, primitive data types are the building blocks of data manipulation.\nThese are the most basic data types available in Java language.
+\nThere are 8 types of primitive data types:"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="345dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#D2DFE4"
+                app:srcCompat="@drawable/primitve" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Description about Primitive Data Types"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_margin="20dp"
+                android:background="#D2DFE4"
+                app:srcCompat="@drawable/range" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Code"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#5C8A9F"
+                android:padding="10dp"
+                android:text="class Primitive {
+    \npublic static void main(String args[])
+    \n{
+
+        \nchar a = 'G';
+
+
+        \nint i = 89;
+
+
+        \nbyte b = 4;
+
+
+        \n// byte b1 = 7888888955;
+
+        \nshort s = 56;
+
+
+        \n// short s1 = 87878787878;
+
+
+        \ndouble d = 4.355453532;
+
+
+        \nfloat f = 4.7333434f;
+
+        \nSystem.out.println(&quot;char&quot;+ a);
+        \nSystem.out.println(&quot;integer&quot; + i);
+        \nSystem.out.println(&quot;byte&quot; + b);
+        \nSystem.out.println(&quot;short&quot; + s);
+        \nSystem.out.println(&quot;float&quot; + f);
+        \nSystem.out.println(&quot;double&quot; + d);
+    \n}
+\n}
+"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/textView54"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#C5AFAD"
+                android:padding="10dp"
+                android:text="Output:"
+                android:textColor="#B71C1C"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="\nchar: G
+\ninteger: 89
+\nbyte: 4
+\nshort: 56
+\nfloat: 4.7333436
+\ndouble: 4.355453532"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Derived Data Types"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="Derived data types are those that are made by using any other data type for example, arrays.
+                 \nUser defined data types are those that user / programmer himself defines."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

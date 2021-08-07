@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seven"
+    android:orientation="vertical">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="5dp"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6FAF9"
+        android:orientation="vertical">
+
+
+      <TextView
+          android:id="@+id/textView79"
+          style="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="#C5AFAD"
+          android:padding="10dp"
+          android:text="Printing Output"
+          android:textColor="#B71C1C"
+          android:textSize="44sp" />
+
+      <TextView
+          android:id="@+id/textView80"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+
+          android:layout_marginRight="10dp"
+          android:background="#ffffff"
+          android:padding="10dp"
+          android:text="In Java, System.out.println() is a statement which prints the argument passed to it. The println() method display results on the monitor. Usually, a method is invoked by objectname.methodname().
+
+
+
+
+\nWhere System is the class name, it is declared as final. The out is an instance of the System class and is of type PrintStream. Its access specifiers are public and final. It is an instance of java.io.PrintStream. When we call the member, a PrintStream class object creates internally.
+
+\nSo, we can call the print() method, as shown below:
+"
+          android:textColor="#000000"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/textView81"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="10dp"
+          android:background="#5C8A9F"
+          android:padding="10dp"
+          android:text="System.out.print();  "
+          android:textColor="#000000"
+          android:textSize="22sp" />
+
+      <TextView
+          android:id="@+id/textView56"
+          style="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="#C5AFAD"
+          android:padding="10dp"
+          android:text="Getting Input from user"
+          android:textColor="#B71C1C"
+          android:textSize="44sp" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+
+          android:layout_marginRight="10dp"
+          android:background="#ffffff"
+          android:padding="10dp"
+          android:text="Scanner class of java.util package is used to take input from the user's keyboard.The Scanner class has many methods for taking input from the user depending upon the type of input.\nTo use any of the methods of the Scanner class, first, we need to create an object of the Scanner class as shown in the below example :"
+          android:textColor="#000000"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/textView64"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="10dp"
+          android:background="#5C8A9F"
+          android:padding="10dp"
+          android:text='import java.util.Scanner;  \n// Importing  the Scanner class
+          \nScanner sc = new Scanner(System.in);  \n//Creating an object named "sc" of the Scanner class.'
+          android:textColor="#000000"
+          android:textSize="22sp" />
+
+      <TextView
+          android:id="@+id/textView65"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="5dp"
+          android:background="#101010"
+          android:padding="10dp"
+          android:text="Taking an integer input from the keyboard :"
+          android:textColor="#FAF6F6"
+          android:textSize="30sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/textView66"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="10dp"
+          android:background="#5C8A9F"
+          android:padding="10dp"
+          android:text="Scanner S = new Scanner(System.in);
+          \n//(Read from the keyboard)
+      \nint a = S.nextInt();
+      \n//(Method to read from the keyboard)"
+          android:textColor="#000000"
+          android:textSize="22sp" />
+
+      <TextView
+          android:id="@+id/textView76"
+          style="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="#C5AFAD"
+          android:padding="10dp"
+          android:text="Source Code:"
+          android:textColor="#B71C1C"
+          android:textSize="44sp" />
+
+      <TextView
+          android:id="@+id/textView694"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="10dp"
+          android:background="#5C8A9F"
+          android:padding="10dp"
+          android:text="import java.util.*;
+\nclass UserInputDemo
+\n{
+\npublic static void main(String[] args)
+\n{
+\nScanner sc= new Scanner(System.in);    //System.in is a standard input stream
+\nSystem.out.print(&quot;Enter first number-&quot;);
+\nint a= sc.nextInt();
+\nSystem.out.print(&quot;Enter second number-&quot;);
+\nint b= sc.nextInt();
+\nSystem.out.print(&quot;Enter third number- &quot;);
+\nint c= sc.nextInt();
+\nint d=a+b+c;
+\nSystem.out.println(&quot;Total=&quot; +d);
+\n}
+\n}  "
+          android:textColor="#000000"
+          android:textSize="22sp" />
+
+      <TextView
+          android:id="@+id/textView77"
+          style="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:background="#C5AFAD"
+          android:padding="10dp"
+          android:text="Output:"
+          android:textColor="#B71C1C"
+          android:textSize="44sp" />
+
+      <TextView
+          android:id="@+id/textView78"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="5dp"
+          android:background="#101010"
+          android:padding="10dp"
+          android:text="Enter first number- 10
+          \nEnter second number-20
+          \nEnter third number-30
+          \nTotal-60 "
+
+          android:textColor="#FAF6F6"
+          android:textSize="30sp"
+          android:textStyle="bold" />
+
+
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

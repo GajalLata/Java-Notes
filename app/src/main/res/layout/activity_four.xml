@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".four"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#C5AFAD"
+                android:padding="10dp"
+                android:text="Variables"
+                android:textColor="#B71C1C"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="A variable is a container that stores a value.\nThis value can be changed during the execution of the program. \nExample: int number = 8; (Here, int is a data type, the number is the variable name, and 8 is the value it contains/stores). "
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Rules for Variables"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="We can choose a name while declaring a Java variable if the following rules are followed:
+\n1.Must not begin with a digit. \n2.Name is case sensitive. \n3.Should not be a keyword (like Void).
+\n4.White space is not allowed.  \n5.Can contain alphabets, $character, _character, and digits if the other conditions are met. "
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#C5AFAD"
+                android:padding="10dp"
+                android:text="Types of Variables"
+                android:textColor="#B71C1C"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="1.Local Variables"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
+
+\nA local variable cannot be defined with &quot;static&quot; keyword"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="2.Instance Variables"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
+\nIt is called instance variable because its value is instance specific and is not shared among instances."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="3.Static Variables"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.
+
+"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="#101010"
+                android:padding="10dp"
+                android:text="Code"
+                android:textColor="#FAF6F6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#5C8A9F"
+                android:padding="10dp"
+                android:text="class A{
+\nint data=50;  //instance variable
+\nstatic int m=100;  //static variable
+\nvoid method() {
+\nint n=90; //local variable
+\n}
+\npublic static void main(String args [])
+\n{
+\nint a=10;  // local variable
+\n}
+\n} "
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
